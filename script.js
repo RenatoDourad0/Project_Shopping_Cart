@@ -39,7 +39,7 @@ const createCartItemElement = ({ id: sku, title: name, price: salePrice }) => {
 
 const itens = document.querySelector('.items');
 const cartItems = document.querySelector('.cart__items');
-// force push
+
 window.onload = async () => {
   const productsArray = await fetchProducts('computador');
   productsArray.results.forEach((element) => {
