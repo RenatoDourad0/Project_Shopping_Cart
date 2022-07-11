@@ -13,7 +13,7 @@ const createCustomElement = (element, className, innerText) => {
 };
 
 const createProductItemElement = ({ sku, name, image }) => {
-  const section = document.createElement('section');
+  const section = document.createElement('section')
   section.className = 'item';
 
   section.appendChild(createCustomElement('span', 'item__sku', sku));
