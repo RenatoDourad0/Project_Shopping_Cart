@@ -3,6 +3,7 @@ try {
   if (arg === undefined) {
     throw new Error('You must provide an url');
   } else {
+    console.log(arg)
     const endPoint = `https://api.mercadolibre.com/sites/MLB/search?q=${arg}`;
     const response = await fetch(endPoint);
     const data = await response.json();

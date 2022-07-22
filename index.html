@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <script src="./helpers/fetchItem.js" defer></script>
     <script src="./helpers/fetchProducts.js" defer></script>
     <script src="./helpers/saveCartItems.js" defer></script>
@@ -21,6 +22,10 @@
       <div class="container-title">
         <span class="title"><strong>trybe</strong>shopping</span>
       </div>
+      <form action="" id="searchForm">
+        <input type="search" name="searchBar" id="searchBar" placeholder="pesquise seu produto">
+        <button type="submit" id="searchButton"></button>
+      </form>
       <i class="material-icons" style="font-size:45px;color:white">shopping_cart</i>
       <div class="container-cartTitle">
         <span class="cart__title">Meu carrinho</span>
@@ -29,9 +34,15 @@
     <section class="container">
       <section class="items"></section>
       <section class="cart">
-        <ol class="cart__items"></ol>
-        <button class="empty-cart">Esvaziar carrinho</button>
-        <h2 class="total-price">0</h2>
+        <ol class="cart__items" style="list-style: none;"></ol>
+        <div style="margin: auto; padding: 10px; background: rgb(246, 246, 246); width: 90%; text-align: center;">
+          <h2>Valor: R$</h2>
+          <h2 class="total-price">0</h2>
+          <br><br>
+          <button class="empty-cart">Esvaziar carrinho</button>
+          <br>
+          <button class="empty-cart green">Finalizar compra</button>
+        </div>
       </section>
     </section>
   </body>
