@@ -22,7 +22,6 @@ Practiced skills:
 - Local Storage API;
 - DOM manipulation and events;
 - Css flexbox;
-- Use React PropTypes to validade prop types;
 
 
 ### Screenshot
