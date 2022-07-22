@@ -13,7 +13,7 @@
 
 ### The project
 
-Develop a web page that fetches products information from Mercado Livre API. The page should count with a danamic shopping cart and search bar. 
+Develop a web page that fetches products information from Mercado Livre API. The page should count with a dinamic shopping cart and search bar. 
 
 Practiced skills:
 
